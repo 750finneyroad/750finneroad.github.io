@@ -72,12 +72,15 @@ jQuery(document).ready(function(){
 		autoplay: true,
 		arrows: false,
 	});
-
-	jQuery('.grid').masonry({
-	  // options...
-	  itemSelector: '.grid-item',
-	  columnWidth: 200
-	});
+	
+	jQuery('#last-image').ready( function () {
+		jQuery('.grid').masonry({
+		  // options...
+		  itemSelector: '.grid-item',
+		  columnWidth: 300
+		});	
+	})
+	
 	
 	
 });
