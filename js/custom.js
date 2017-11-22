@@ -90,6 +90,7 @@ jQuery(document).ready(function(){
 	livingBtn.on("click touch", function () {
 		jQuery('.active').fadeOut();
 		jQuery('.active').removeClass('active');
+		jQuery('.active-btn').removeClass('active-btn');
 		livingBtn.addClass('active-btn')
 		livArea.addClass('active')
 		livArea.fadeIn();
@@ -103,6 +104,7 @@ jQuery(document).ready(function(){
 	kitchenBtn.on("click touch", function () {
 		jQuery('.active').fadeOut();
 		jQuery('.active').removeClass('active');
+		jQuery('.active-btn').removeClass('active-btn');
 		kitchenBtn.addClass('active-btn')
 		kitchen.addClass('active')
 		kitchen.fadeIn();
@@ -116,6 +118,7 @@ jQuery(document).ready(function(){
 	bedroomBtn.on("click touch", function () {
 		jQuery('.active').fadeOut();
 		jQuery('.active').removeClass('active');
+		jQuery('.active-btn').removeClass('active-btn');
 		bedroomBtn.addClass('active-btn')
 		bedroom.addClass('active')
 		bedroom.fadeIn();
@@ -129,6 +132,7 @@ jQuery(document).ready(function(){
 	bathroomBtn.on("click touch", function () {
 		jQuery('.active').fadeOut();
 		jQuery('.active').removeClass('active');
+		jQuery('.active-btn').removeClass('active-btn');
 		bathroomBtn.addClass('active-btn')
 		bathroom.addClass('active')
 		bathroom.fadeIn();
@@ -142,6 +146,7 @@ jQuery(document).ready(function(){
 	houseBtn.on("click touch", function () {
 		jQuery('.active').fadeOut();
 		jQuery('.active').removeClass('active');
+		jQuery('.active-btn').removeClass('active-btn');
 		houseBtn.addClass('active-btn')
 		house.addClass('active')
 		house.fadeIn();
@@ -155,6 +160,7 @@ jQuery(document).ready(function(){
 	areaBtn.on("click touch", function () {
 		jQuery('.active').fadeOut();
 		jQuery('.active').removeClass('active');
+		jQuery('.active-btn').removeClass('active-btn');
 		areaBtn.addClass('active-btn')
 		area.addClass('active')
 		area.fadeIn();
