@@ -73,11 +73,46 @@ jQuery(document).ready(function(){
 		arrows: false,
 	});
 	
-	jQuery('.grid-item').ready( function () {
-		jQuery('.grid').masonry({
+	jQuery('.grid-exterior-area').ready( function () {
+		jQuery('.grid-exterior-area').masonry({
 		  // options...
 		  itemSelector: '.grid-item',
-		  columnWidth: 300
+		  columnWidth: 250
+		});	
+	})
+	jQuery('.grid-exterior-house').ready( function () {
+		jQuery('.grid-exterior-house').masonry({
+		  // options...
+		  itemSelector: '.grid-item',
+		  columnWidth: 250
+		});	
+	})
+	jQuery('.grid-interior-living-areas').ready( function () {
+		jQuery('.grid-interior-living-areas').masonry({
+		  // options...
+		  itemSelector: '.grid-item',
+		  columnWidth: 250
+		});	
+	})
+	jQuery('.grid-interior-kitchen').ready( function () {
+		jQuery('.grid-interior-kitchen').masonry({
+		  // options...
+		  itemSelector: '.grid-item',
+		  columnWidth: 250
+		});	
+	})
+	jQuery('.grid-interior-bedroom').ready( function () {
+		jQuery('.grid-interior-bedroom').masonry({
+		  // options...
+		  itemSelector: '.grid-item',
+		  columnWidth: 250
+		});	
+	})
+	jQuery('.grid-interior-bathroom').ready( function () {
+		jQuery('.grid-interior-bathroom').masonry({
+		  // options...
+		  itemSelector: '.grid-item',
+		  columnWidth: 250
 		});	
 	})
 	
