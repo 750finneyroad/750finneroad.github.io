@@ -530,6 +530,10 @@ body{
 .single-gallery a{
 	display:block;
 }
+.grid-item img {
+	max-width: 500px;
+	padding: 1em;
+}
 
 /*.places-section*/
 
