@@ -534,6 +534,13 @@ body{
 	max-width: 500px;
 	padding: 1em;
 }
+.btn {
+	margin: .25em .1em;
+}
+.btn.active {
+	color: white;
+    background: #2fcb2c;
+}
 
 /*.places-section*/
 

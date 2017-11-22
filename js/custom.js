@@ -90,6 +90,7 @@ jQuery(document).ready(function(){
 	livingBtn.on("click touch", function () {
 		jQuery('.active').fadeOut();
 		jQuery('.active').removeClass('active');
+		livingBtn.addClass('active')
 		livArea.addClass('active')
 		livArea.fadeIn();
 		jQuery('.grid-interior-living-areas').masonry({
@@ -102,6 +103,7 @@ jQuery(document).ready(function(){
 	kitchenBtn.on("click touch", function () {
 		jQuery('.active').fadeOut();
 		jQuery('.active').removeClass('active');
+		kitchenBtn.addClass('active')
 		kitchen.addClass('active')
 		kitchen.fadeIn();
 		jQuery('.grid-interior-kitchen').masonry({
@@ -114,6 +116,7 @@ jQuery(document).ready(function(){
 	bedroomBtn.on("click touch", function () {
 		jQuery('.active').fadeOut();
 		jQuery('.active').removeClass('active');
+		bedroomBtn.addClass('active')
 		bedroom.addClass('active')
 		bedroom.fadeIn();
 		jQuery('.grid-interior-bedroom').masonry({
@@ -126,6 +129,7 @@ jQuery(document).ready(function(){
 	bathroomBtn.on("click touch", function () {
 		jQuery('.active').fadeOut();
 		jQuery('.active').removeClass('active');
+		bathroomBtn.addClass('active')
 		bathroom.addClass('active')
 		bathroom.fadeIn();
 		jQuery('.grid-interior-bathroom').masonry({
@@ -138,6 +142,7 @@ jQuery(document).ready(function(){
 	houseBtn.on("click touch", function () {
 		jQuery('.active').fadeOut();
 		jQuery('.active').removeClass('active');
+		houseBtn.addClass('active')
 		house.addClass('active')
 		house.fadeIn();
 		jQuery('.grid-exterior-house').masonry({
@@ -150,6 +155,7 @@ jQuery(document).ready(function(){
 	areaBtn.on("click touch", function () {
 		jQuery('.active').fadeOut();
 		jQuery('.active').removeClass('active');
+		areaBtn.addClass('active')
 		area.addClass('active')
 		area.fadeIn();
 		jQuery('.grid-exterior-area').masonry({
