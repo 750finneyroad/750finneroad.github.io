@@ -72,12 +72,6 @@ jQuery(document).ready(function(){
 		autoplay: true,
 		arrows: false,
 	});
-
-	jQuery('.grid-interior-living-areas').masonry({
-	  // options...
-	  itemSelector: '.grid-item',
-	  columnWidth: 200
-	});
 	
 	var area = jQuery('.grid-exterior-area'),
 		house = jQuery('.grid-exterior-house'),
@@ -179,3 +173,10 @@ jQuery(document).ready(function(){
 
 });
 
+$(window).on("load", function () {
+	jQuery('.grid-interior-living-areas').masonry({
+	  // options...
+	  itemSelector: '.grid-item',
+	  columnWidth: 200
+	});
+})
