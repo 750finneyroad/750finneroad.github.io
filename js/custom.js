@@ -73,50 +73,91 @@ jQuery(document).ready(function(){
 		arrows: false,
 	});
 	
-	jQuery('.grid-exterior-area').ready( function () {
-		jQuery('.grid-exterior-area').masonry({
-		  // options...
-		  itemSelector: '.grid-item',
-		  columnWidth: 200
-		});	
-	})
-	jQuery('.grid-exterior-house').ready( function () {
-		jQuery('.grid-exterior-house').masonry({
-		  // options...
-		  itemSelector: '.grid-item',
-		  columnWidth: 200
-		});	
-	})
-	jQuery('.grid-interior-living-areas').ready( function () {
+	var area = jQuery('.grid-exterior-area'),
+		house = jQuery('.grid-exterior-house'),
+		livArea = jQuery('.grid-interior-living-areas'),
+		kitchen = jQuery('.grid-interior-kitchen'),
+		bedroom = jQuery('.grid-interior-bedroom'),
+		bathroom = jQuery('.grid-interior-bathroom'),
+		livingBtn = jQuery("#living"),
+		kitchenBtn = jQuery("#kitchen"),
+		bedroomBtn = jQuery("#bedroom"),
+		bathroomBtn = jQuery("#bathroom"),
+		houseBtn = jQuery("#house"),
+		areaBtn = jQuery("#area");
+	
+
+	livingBtn.on("click touch", function () {
+		jQuery('.active').fadeOut();
+		jQuery('.active').removeClass('active');
+		this.addClass('active')
+		this.fadeIn();
 		jQuery('.grid-interior-living-areas').masonry({
 		  // options...
 		  itemSelector: '.grid-item',
 		  columnWidth: 200
-		});	
-	})
-	jQuery('.grid-interior-kitchen').ready( function () {
+		});
+	})	
+
+	kitchenBtn.on("click touch", function () {
+		jQuery('.active').fadeOut();
+		jQuery('.active').removeClass('active');
+		this.addClass('active')
+		this.fadeIn();
 		jQuery('.grid-interior-kitchen').masonry({
 		  // options...
 		  itemSelector: '.grid-item',
 		  columnWidth: 200
-		});	
-	})
-	jQuery('.grid-interior-bedroom').ready( function () {
+		});
+	})	
+
+	bedroomBtn.on("click touch", function () {
+		jQuery('.active').fadeOut();
+		jQuery('.active').removeClass('active');
+		this.addClass('active')
+		this.fadeIn();
 		jQuery('.grid-interior-bedroom').masonry({
 		  // options...
 		  itemSelector: '.grid-item',
 		  columnWidth: 200
-		});	
-	})
-	jQuery('.grid-interior-bathroom').ready( function () {
+		});
+	})	
+
+	bathroomBtn.on("click touch", function () {
+		jQuery('.active').fadeOut();
+		jQuery('.active').removeClass('active');
+		this.addClass('active')
+		this.fadeIn();
 		jQuery('.grid-interior-bathroom').masonry({
 		  // options...
 		  itemSelector: '.grid-item',
 		  columnWidth: 200
-		});	
-	})
+		});
+	})	
 	
+	houseBtn.on("click touch", function () {
+		jQuery('.active').fadeOut();
+		jQuery('.active').removeClass('active');
+		this.addClass('active')
+		this.fadeIn();
+		jQuery('.grid-exterior-house').masonry({
+		  // options...
+		  itemSelector: '.grid-item',
+		  columnWidth: 200
+		});
+	})	
 	
-	
+	areaBtn.on("click touch", function () {
+		jQuery('.active').fadeOut();
+		jQuery('.active').removeClass('active');
+		this.addClass('active')
+		this.fadeIn();
+		jQuery('.grid-exterior-area').masonry({
+		  // options...
+		  itemSelector: '.grid-item',
+		  columnWidth: 200
+		});
+	})	
+
 });
 
