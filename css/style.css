@@ -537,7 +537,7 @@ body{
 .btn {
 	margin: .25em .1em;
 }
-.btn.active {
+.btn.active-btn {
 	color: white;
     background: #2fcb2c;
 }
