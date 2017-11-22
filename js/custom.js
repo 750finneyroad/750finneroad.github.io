@@ -73,7 +73,7 @@ jQuery(document).ready(function(){
 		arrows: false,
 	});
 	
-	jQuery('#last-image').ready( function () {
+	jQuery('.grid-item').ready( function () {
 		jQuery('.grid').masonry({
 		  // options...
 		  itemSelector: '.grid-item',
