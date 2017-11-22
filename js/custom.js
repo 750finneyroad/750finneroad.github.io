@@ -90,8 +90,8 @@ jQuery(document).ready(function(){
 	livingBtn.on("click touch", function () {
 		jQuery('.active').fadeOut();
 		jQuery('.active').removeClass('active');
-		this.addClass('active')
-		this.fadeIn();
+		livArea.addClass('active')
+		livArea.fadeIn();
 		jQuery('.grid-interior-living-areas').masonry({
 		  // options...
 		  itemSelector: '.grid-item',
@@ -102,8 +102,8 @@ jQuery(document).ready(function(){
 	kitchenBtn.on("click touch", function () {
 		jQuery('.active').fadeOut();
 		jQuery('.active').removeClass('active');
-		this.addClass('active')
-		this.fadeIn();
+		kitchen.addClass('active')
+		kitchen.fadeIn();
 		jQuery('.grid-interior-kitchen').masonry({
 		  // options...
 		  itemSelector: '.grid-item',
@@ -114,8 +114,8 @@ jQuery(document).ready(function(){
 	bedroomBtn.on("click touch", function () {
 		jQuery('.active').fadeOut();
 		jQuery('.active').removeClass('active');
-		this.addClass('active')
-		this.fadeIn();
+		bedroom.addClass('active')
+		bedroom.fadeIn();
 		jQuery('.grid-interior-bedroom').masonry({
 		  // options...
 		  itemSelector: '.grid-item',
@@ -126,8 +126,8 @@ jQuery(document).ready(function(){
 	bathroomBtn.on("click touch", function () {
 		jQuery('.active').fadeOut();
 		jQuery('.active').removeClass('active');
-		this.addClass('active')
-		this.fadeIn();
+		bathroom.addClass('active')
+		bathroom.fadeIn();
 		jQuery('.grid-interior-bathroom').masonry({
 		  // options...
 		  itemSelector: '.grid-item',
@@ -138,8 +138,8 @@ jQuery(document).ready(function(){
 	houseBtn.on("click touch", function () {
 		jQuery('.active').fadeOut();
 		jQuery('.active').removeClass('active');
-		this.addClass('active')
-		this.fadeIn();
+		house.addClass('active')
+		house.fadeIn();
 		jQuery('.grid-exterior-house').masonry({
 		  // options...
 		  itemSelector: '.grid-item',
@@ -150,8 +150,8 @@ jQuery(document).ready(function(){
 	areaBtn.on("click touch", function () {
 		jQuery('.active').fadeOut();
 		jQuery('.active').removeClass('active');
-		this.addClass('active')
-		this.fadeIn();
+		area.addClass('active')
+		area.fadeIn();
 		jQuery('.grid-exterior-area').masonry({
 		  // options...
 		  itemSelector: '.grid-item',
