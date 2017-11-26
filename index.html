@@ -35,6 +35,11 @@
 			<script src="js/html5shiv.js"></script>
 			<script src="js/respond.min.js"></script>
 		<![endif]-->
+
+		<!-- Smooth-Scroll-Nav
+		================================================== -->
+		<!-- <script src="lib/smoothscroll/smooth-scroll.js"></script> -->		
+		<script src="lib/smoothscroll/smooth-scroll.js"></script>
 		
 	</head>
 	<body>
@@ -60,12 +65,12 @@
 							<li><a href="https://maps.google.com/maps?q=750+Finne+Rd,+Redwood+Valley,+CA+95470" data-effect="mfp-3d-unfold" class="button sm embaded-popup">Get Direction</a></li>
 						</ul>
 						<ul class="nav nav-list navbar-nav navbar-right">
-							<li><a href="#about">About</a></li>
-							<li><a href="#floorplans">Floor Plans</a></li>
-							<li><a href="#tvc">Video Tour</a></li>
-							<li><a href="#gallery">Gallery</a></li>
-							<li><a href="#location">Locations</a></li>
-							<li><a href="#testimonials">Testimonials</a></li>
+							<li><a data-scroll href="#about">About</a></li>
+							<li><a data-scroll href="#floorplans">Floor Plans</a></li>
+							<li><a data-scroll href="#tvc">Video Tour</a></li>
+							<li><a data-scroll href="#gallery">Gallery</a></li>
+							<li><a data-scroll href="#location">Locations</a></li>
+							<li><a data-scroll href="#testimonials">Testimonials</a></li>
 						</ul>
 					</div><!-- /.navbar-collapse -->
 				</div><!-- /.container -->
@@ -772,6 +777,10 @@
 		</div><!-- .footer-section -->
 		
 		
+		<script>
+	var scroll = new SmoothScroll('a[href*="#"]');
+</script>
+
 		<!-- Bootstrap core JavaScript
 		================================================== -->
 		<!-- Placed at the end of the document so the pages load faster -->
@@ -783,6 +792,9 @@
 		================================================== -->
 		<!-- <script src="lib/One-Page-Nav/jquery.scrollTo.js"></script> -->
 		<script src="lib/One-Page-Nav/jquery.nav.js"></script>
+
+		
+
 		
 		<!-- Magnific-Popup
 		================================================== -->
