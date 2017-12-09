@@ -166,7 +166,7 @@ body{
 }
 
 .alt-bg{
-	background:#f2fff2;
+	background:#c89a3d2e;
 }
 .white-bg{
 	background:#fff;
@@ -232,7 +232,7 @@ body{
 	left:0;
 	background:#fff;
 	z-index:999;
-	border-bottom:1px solid #F2FFF2;
+	border-bottom:1px solid #c89a3d2e;
 }
 .nav-list{
 	padding-right:28px;
@@ -452,7 +452,7 @@ body{
 	width:100%;
 }
 .single-floor-feature{
-	background:#f2fff2;
+	background:#c89a3d2e;
 	margin-bottom:30px;
 	padding:40px 0 38px;
 }
@@ -556,7 +556,7 @@ body{
 }
 .single-place{
 	padding:40px 30px 33px;
-	background:#f2fff2;
+	background:#c89a3d2e;
 	margin-bottom:30px;
 }
 .single-place .icofont{
