@@ -115,7 +115,14 @@ h4,h5,p,ul,blockquote{
 	color:#777;
 }
 
-
+/* CUSTOM */
+.logos {
+	position: relative;
+}
+.gold-logo {
+	position: absolute;
+	bottom: 0;
+}
 /* Common CSS */
 
 body{
@@ -137,7 +144,7 @@ body{
 	line-height:50px;
 	font-weight:900;
 	color:#fff;
-	background:#2fca2d;
+	background:#c79b3e;
 	text-transform:uppercase;
 	padding:0 30px;
 	border:none;
@@ -174,7 +181,7 @@ body{
 	padding-top:15px;
 }
 .section-head h2 span{
-	color:#2fca2d;
+	color:#c79b3e;
 }
 .side-head{
 	padding:28px 0;
@@ -183,7 +190,7 @@ body{
 	padding:11px 0 15px;
 }
 .side-head h2 span{
-	color:#2fca2d;
+	color:#c79b3e;
 }
 
 .play-button{
@@ -209,7 +216,7 @@ body{
 	text-align:center;
 	font-size:18px;
 	border-radius:50%;
-	background:#2fca2d;
+	background:#c79b3e;
 	color:#fff;
 	display:block;
 }
@@ -256,8 +263,8 @@ body{
 }
 .navbar-default .navbar-toggle:hover, 
 .navbar-default .navbar-toggle:focus {
-	background-color: #2fca2d;
-	border-color: #2fca2d;
+	background-color: #c79b3e;
+	border-color: #c79b3e;
 }
 .nav > li > a {
 	padding: 10px 20px;
@@ -270,7 +277,7 @@ body{
 }
 .navbar-default .navbar-nav > li.current > a, 
 .navbar-default .navbar-nav > li > a:hover {
-	color: #2fca2d;
+	color: #c79b3e;
 	background-color: transparent;
 }
 
@@ -358,7 +365,7 @@ body{
 	padding:48px 0 50px;
 }
 .about-text h2 span{
-	color:#2fca2d;
+	color:#c79b3e;
 }
 .about-text h4{
 	padding:14px 0 6px;
@@ -375,7 +382,7 @@ body{
 	font-weight:300;
 }
 .about-text ul li .icofont{
-	color:#2fca2d;
+	color:#c79b3e;
 	padding-right:9px;
 }
 
@@ -418,7 +425,7 @@ body{
 	top: -15px;
 }
 .appointment-form .success {
-	color: #2fca2d;
+	color: #c79b3e;
 	margin: -5px 0 20px;
 }
 .appointment-form .error {
@@ -433,7 +440,7 @@ body{
 	padding:116px 0 110px;
 }
 .single-floor h2 span{
-	color:#2fca2d;
+	color:#c79b3e;
 }
 .single-floor h4{
 	padding:14px 0 46px;
@@ -450,7 +457,7 @@ body{
 	padding:40px 0 38px;
 }
 .single-floor-feature .icofont{
-	color:#2fca2d;
+	color:#c79b3e;
 	font-size:36px;
 }
 .single-floor-feature h6{
@@ -496,7 +503,7 @@ body{
 	padding-left:20px;
 }
 .room-features-texts h2 span{
-	color:#2fca2d;
+	color:#c79b3e;
 }
 .room-features-texts h4{
 	padding:12px 0 17px;
@@ -512,7 +519,7 @@ body{
 .room-features-texts ul li:before{
 	font-family: 'IcoFont' !important;
 	content: "\efab";
-	color:#2fca2d;
+	color:#c79b3e;
 	margin-right:10px;
 }
 
@@ -553,7 +560,7 @@ body{
 	margin-bottom:30px;
 }
 .single-place .icofont{
-	color:#2fca2d;
+	color:#c79b3e;
 	font-size:36px;
 }
 .single-place h6{
@@ -578,7 +585,7 @@ body{
 }
 .testimonial-text h5 small{
 	font-weight:900;
-	color:#2fca2d;
+	color:#c79b3e;
 	display:block;
 	font-size:12px;
 	padding-bottom:11px;
@@ -607,8 +614,8 @@ body{
 .slick-dots li.slick-active button {
 	width: 26px;
 	opacity:1;
-	background: #2fca2d;
-	color:#2fca2d;
+	background: #c79b3e;
+	color:#c79b3e;
 }
 
 
@@ -643,7 +650,7 @@ body{
 	display:block;
 }
 .copyright-text a{
-	color:#2fca2d;
+	color:#c79b3e;
 }
 .copyright-text a:hover{
 	color:#000;
@@ -666,7 +673,7 @@ body{
 }
 .footer-links li a:hover{
 	display:inline-block;
-	color:#2fca2d;
+	color:#c79b3e;
 }
 
 
