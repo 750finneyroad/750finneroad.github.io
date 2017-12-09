@@ -120,8 +120,9 @@ h4,h5,p,ul,blockquote{
 	position: relative;
 }
 .gold-logo {
-	position: absolute;
-	bottom: 0;
+	position: relative;
+   	top: 50%;
+    transform: translateY(50%);
 }
 /* Common CSS */
 
@@ -546,7 +547,7 @@ body{
 }
 .btn.active-btn {
 	color: white;
-    background: #2fcb2c;
+    background: #c79b3e;
 }
 
 /*.places-section*/
