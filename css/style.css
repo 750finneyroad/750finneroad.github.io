@@ -118,6 +118,7 @@ h4,h5,p,ul,blockquote{
 /* CUSTOM */
 .logos {
 	position: relative;
+	width: 80%;
 }
 .gold-logo {
 	position: relative;
