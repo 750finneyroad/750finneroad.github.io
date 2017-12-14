@@ -540,7 +540,8 @@ body{
 	display:block;
 }
 .grid-item img {
-	max-width: 500px;
+	width: 500px;
+	max-width: 100%;
 	padding: 1em;
 }
 .btn {
